@@ -24,7 +24,7 @@ function saveTasks() {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(tasks));
   } catch (e) {
-    /* storage unavailable: app still works for this session */
+    
   }
 }
 
